@@ -8,4 +8,7 @@ Fork the repo, and follow the instructions [here](http://qutip.org/docs/latest/i
 
 ## Project Structure
 
-Most of the codes are given in this repo, where **dynamics.py** is the main file to run. **config.json** stores the parameters of the physical system and GRAPE algorithm. **optimizedPulse** stores information of two sample optimized pulse amplitudes.
+Most of the codes are given in this repo except some not essential ones, which can be available upon request.
+* Within folder **code**, **dynamics.py** is the main file to run. **config.json** stores the parameters of the physical system and GRAPE algorithm. **optimizedPulse** stores information of two sample optimized pulse amplitudes.
+
+* Folder **qutip** is mostly code from the released qutip codes from [here](https://github.com/qutip/qutip/tree/master/qutip). The major modifications are in **qutip/control/fidcomp.py**, where two new classes *fidCompModified* and *fidCompVariational* are created for dynamics simulation and variational method respectively.
